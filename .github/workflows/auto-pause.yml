@@ -1,6 +1,6 @@
 name: Auto Pause Leishen
 
-# on:
+on:
   schedule:
     # 每天凌晨1点自动暂停 (UTC时间17:00 = 北京时间1:00)
     - cron: '4 18 * * 0,1,3,5,6'
